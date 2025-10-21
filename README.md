@@ -7,8 +7,8 @@ O objetivo deste trabalho é aplicar os principais conceitos aprendidos ao longo
 
 ## 🧾 Informações Gerais
 
-**Aluno:** _[Seu nome aqui]_    
-**Data de entrega:** _[Definir data]_
+**Aluno:** _[Pablo]_    
+**Data de entrega:** _[27/10/25]_
 
 ---
 
@@ -95,7 +95,7 @@ Crie um programa que:
   - Se a nota média é **acima da média da turma (>= 7.0)** ou não.
 - Exiba uma mensagem formatada com todas as informações.
 
----
+--- Nesse exercicio eu usei uma lógica simples com if e else, mas primeiro eu subtraí 100 anos pela idade da pessoa e pra depois calcular a media da nota fazendo, se a nota for maior ou igual a 7, é a nota acima da turma e senão, não é.
 
 ### **Exercício 2 – Listas e Laços de Repetição**
 Crie um programa que:
