@@ -17,7 +17,7 @@ O objetivo deste trabalho é aplicar os principais conceitos aprendidos ao longo
 Clone esse repositório no seu computador
 
 ```
-git clone link_ssh_do_repositorio
+git clone git@github.com:alfredodiani-youx/avaliacao-logica-python-lab2025-2.git
 ```
 
 Crie uma nova branch utilizando seu nome e sobrenome 
