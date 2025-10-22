@@ -3,7 +3,7 @@ idade=int(input('Digite a idade: '))
 notaMedia=float(input('Digite a nota: '))
 
 
-tempo = idade - 100
+tempo = 100 - idade
 if notaMedia > 7:
     print('A nota é maior que a media')
 else:
