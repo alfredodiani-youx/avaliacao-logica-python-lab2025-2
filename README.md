@@ -7,94 +7,16 @@ O objetivo deste trabalho é aplicar os principais conceitos aprendidos ao longo
 
 ## 🧾 Informações Gerais
 
-**Aluno:** _[Seu nome aqui]_    
+**Aluno:** JOAO GABRIEL BORGES   
 **Data de entrega:** _[Definir data]_
 
----
-
-## 🧾 Instruções para realização da avaliação
-
-Clone esse repositório no seu computador
-
-```
-git clone git@github.com:alfredodiani-youx/avaliacao-logica-python-lab2025-2.git
-```
-
-Crie uma nova branch utilizando seu nome e sobrenome 
-
-com todas as letras em minúsculo e sem espaços ou acentos por exemplo: joao-silva
-
-```
-git checkout -b <seu_nome>
-```
-
-Lembre-se de adicionar os arquivos modificados e fazer commit após cada exercício feito
-
-```
-git add .
-```
-
-```
-git commit -m <sua_mensagem>
-```
-
-Envie as modificações para o repositório assim que possível:
-
-```
-git push origin
-```
-
-Antes de entregar o exercício **reescreva** esse README explicando com suas palavras o que cada exercício faz incluindo as funcionalidades princiais e as adicionadas por você.
-
-Certifique-se de cumprir os requisitos de cada exercício.
-
-Caso queira adicionar alguma funcionalidade extra sinta-se à vontade.
-
----
-
-## 🎯 Objetivo da Avaliação
-
-Avaliar a capacidade de desenvolver soluções em Python utilizando:
-
-- Entradas e saídas de dados  
-- Condicionais e laços de repetição  
-- Listas simples e compostas  
-- Dicionários e funções  
-- Lógica aplicada em um mini projeto final
-
-Além disso, será avaliada a **organização e uso do GitHub** — cada exercício deve ter **um commit separado**, com mensagem clara e descritiva.
-
----
-
-## ⚙️ Estrutura do Repositório
-
-Seu repositório deve seguir esta estrutura:
-
-```
-avaliacao-logica-python-seu-nome/
-│
-├── exercicio1.py
-├── exercicio2.py
-├── exercicio3.py
-├── exercicio4.py
-├── exercicio5_todolist.py
-└── README.md
-```
-
-> 💡 Cada arquivo corresponde a um exercício e deve ser commitado separadamente no GitHub.
-
----
 
 ## 🧩 Exercícios
 
 ### **Exercício 1 – Entrada, Processamento e Saída**
-Crie um programa que:
-- Peça ao usuário **nome**, **idade** e **nota média** (float).
-- Calcule:
-  - Daqui quantos anos o usuário terá 100 anos.
-  - Se a nota média é **acima da média da turma (>= 7.0)** ou não.
-- Exiba uma mensagem formatada com todas as informações.
-
+Pedi ao usario que me informaçe sua infromaçoes idade,nome,media apos isso
+fiz um programa que calcula a demorada pra chegada aos 100 anos e fiz um if pra 
+ver se ele tinha passado ou nao de ano
 ---
 
 ### **Exercício 2 – Listas e Laços de Repetição**
