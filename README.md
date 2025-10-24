@@ -88,12 +88,10 @@ avaliacao-logica-python-seu-nome/
 ## 🧩 Exercícios
 
 ### **Exercício 1 – Entrada, Processamento e Saída**
-Crie um programa que:
-- Peça ao usuário **nome**, **idade** e **nota média** (float).
-- Calcule:
-  - Daqui quantos anos o usuário terá 100 anos.
-  - Se a nota média é **acima da média da turma (>= 7.0)** ou não.
-- Exiba uma mensagem formatada com todas as informações.
+O que o programa faz:
+- O programa pede ao usuário o **nome**, **idade**, e a **média**.
+- Com os valores dados pelo usuário, a primeira ação que o programa faz é printar quantos anos faltam para o usuário ter 100 anos.
+-Logo em seguida, ele lê a média do usuário, se ela for maior que 7, o programa printa que o usuário foi **aprovado**, seção, ele primta que o usuário foi **reprovado**.
 
 ---
 
@@ -187,7 +185,7 @@ O programa só termina quando o usuário escolher “Sair”.
 
 ## ✅ Checklist Antes da Entrega
 
-- [ ] Todos os exercícios estão funcionando corretamente  
+- [✅] Todos os exercícios estão funcionando corretamente  
 - [ ] Cada exercício tem seu próprio commit   
 - [ ] O `README.md` está preenchido com meus dados  
 - [ ] O código está indentado e comentado  
