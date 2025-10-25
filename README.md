@@ -7,8 +7,8 @@ O objetivo deste trabalho é aplicar os principais conceitos aprendidos ao longo
 
 ## 🧾 Informações Gerais
 
-**Aluno:** _[Seu nome aqui]_    
-**Data de entrega:** _[Definir data]_
+**Aluno:** _Daniella_    
+**Data de entrega:** _27/10/25_
 
 ---
 
@@ -188,10 +188,10 @@ O programa só termina quando o usuário escolher “Sair”.
 ## ✅ Checklist Antes da Entrega
 
 - [ ] Todos os exercícios estão funcionando corretamente  
-- [ ] Cada exercício tem seu próprio commit   
-- [ ] O `README.md` está preenchido com meus dados  
-- [ ] O código está indentado e comentado  
-- [ ] Testei todos os programas antes de enviar  
+- [x] Cada exercício tem seu próprio commit   
+- [x] O `README.md` está preenchido com meus dados  
+- [x] O código está indentado e comentado  
+- [x] Testei todos os programas antes de enviar  
 
 ---
 
