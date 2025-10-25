@@ -1,4 +1,7 @@
 # Entrada, Processamento e Saída
+# Esse programa pede o nome, idade e a media do úsuario; calcula a média e verifica se se ele(úsuario) está acima ou abaixo da média.
+
+
 
 nome = str(input('Qual o seu nome?: '))
 idade = int(input('Qual a sua idade?: '))
