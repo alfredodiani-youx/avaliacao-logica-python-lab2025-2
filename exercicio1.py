@@ -1,5 +1,5 @@
-nome = input("Digite o seu nome:")
-idade = int(input("Digite a sua idade:"))
+nome = input("Insira o seu nome:")
+idade = int(input("Insira a sua idade:"))
 notamedia = float(input("Digite a sua nota:"))
 
 tempo = 100 - idade
