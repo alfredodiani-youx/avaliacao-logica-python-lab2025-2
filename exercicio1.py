@@ -8,8 +8,8 @@ print('-'*30)
 CEManos= 100
 idadeFutura=CEManos-idade
 if media >= 7.0:
-    print(f'- {nome} terá 100 anos daqui a {idadeFutura} anos e está APROVADO!')
+    print(f'- {nome} tem {idade} anos e terá 100 anos daqui a {idadeFutura} anos. Sua média é {media} e está APROVADO!')
 else:
-    print(f'- {nome} terá 100 anos daqui a {idadeFutura} anos e está REPROVADO!')
+    print(f'- {nome} tem {idade} anos e terá 100 anos daqui a {idadeFutura} anos. Sua média é {media} e está REPROVADO!')
 
 
