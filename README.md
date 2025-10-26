@@ -7,7 +7,7 @@ O objetivo deste trabalho é aplicar os principais conceitos aprendidos ao longo
 
 ## 🧾 Informações Gerais
 
-**Aluno:** _[Seu nome aqui]_    
+**Aluno:** João Othávio
 **Data de entrega:** _[Definir data]_
 
 ---
@@ -105,24 +105,17 @@ O que o programa faz:
 ---
 
 ### **Exercício 3 – Listas Compostas e Navegação**
-Crie um programa que registre **nome** e **notas** de **vários** alunos.
-- Estruture os dados como:
-  ```python
-  alunos = [[nome, [nota1, nota2]], ...]
-  ```
-- Mostre um boletim com nome e média.
-- Permita consultar as notas de um aluno pelo número de índice.
+O que o programa faz:
+- O programa começa pedindo ao usuário qual o **nome** do aluno, sua **primeira nota** e a **segunda nota**, apos isso, ele faz o cálculo da média entre as duas notas e guarda em uma variavel chamada **media**, e por fim pergunta ao usuário se deseja continuar adicionando **alunos** e **notas**.
+- Depois que o usuário dizer ao programa que **não** deseja adicionar mais alunos, ele vai printar um **boletim** com a **posição** do aluno, o **nome** do aluno, e sua **média**, e logo após vai perguntar ao usuário se ele deseja ver a nota indivídual de algum aluno, se ele digitar o **índice** de algum aluno, vai aparecer seu **nome** e suas **notas**, e se ele digitar **-1** o programa encerra.
 
 ---
 
 ### **Exercício 4 – Funções e Dicionários**
-Crie uma função `analisar_aluno(nome, notas)` que:
-- Recebe o nome e uma lista de notas.
-- Retorna um dicionário:
-  ```python
-  {"nome": "Maria", "media": 8.5, "situacao": "Aprovado"}
-  ```
-- No programa principal, cadastre 3 alunos e exiba o relatório completo.
+O que o programa faz:
+- O programa já tem uma função que faz a **média** das notas do **aluno**, se a média dele for **igual** ou **maior** que **7** o aluno está **Aprovado**, e se for abaixo de **7** ele está **Reprovado**, após isso, ele retorna todos os valores em um **dicionario**.
+- No funcionamento do programa, de início ele pede ao usuário o **nome** do aluno, e **duas notas** dele. O programa repete isso **três** vezes, e a cada final de repetição ele chama a função, e todos os valores que foram digitados pelo usuário, irão para a função, e na função o programa fará os cálculos e retornará tudo em um **dicionário** na lista **alunos**.
+- Após isso, o programa irá printar o **nome** do aluno, sua **média** e sua **situação (Aprovado/Reprovado)**.
 
 ---
 
