@@ -96,12 +96,11 @@ O que o programa faz:
 ---
 
 ### **Exercício 2 – Listas e Laços de Repetição**
-Crie um programa que:
-- Leia **5 números inteiros** e armazene-os em uma lista.
-- Exiba:
-  - O **maior**, **menor** e **média** dos valores.
-  - A lista em **ordem crescente e decrescente**.
-- Peça um número e informe se ele está na lista e em qual posição.
+O que o programa faz:
+- O programa pede ao usuário **5 números inteiros** e os adiciona em uma **lista**.
+- Após isso, o programa vai **calcular** todos os números adicionados a lista, fazer a média deles e guardar em uma variável chamada **media**.
+- Depois, ele vai printar qual o **maior** número digitado, o **menor** número digitado, a **média** entre todos os números digitados, todos os números em forma **crescente**, e em forma **decrescente**.
+- Logo depois, o programa pergunta ao usuário se ele deseja ver algum número da lista, se ele digitar algum número que **esteja** na lista, o programa mostra se o número **está** na lista e em qual **posição** ele está, caso contrário, o programa diz que o número **não** está na lista, e se o usuário digitar o número **-1** o programa **encerra**.
 
 ---
 
