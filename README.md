@@ -209,5 +209,5 @@ exercicio3.py  ( O programa pede o nome do aluno e duas notas,e logo faz uma tab
 
 exercicio4.py  ( O programa faz o registro do aluno pedindo nome e duas notas,e logo faz uma tabela com a sua média e a sua sitiação(aprovado/reprovado). )
 
-exercicio5.py  (
+exercicio5.py  ( Sistema de tarefas, podendo adicionar tarefas, listar tarefas, marcar tarefa como concluída, remover tarefa.)
 
