@@ -25,3 +25,8 @@ while True:
         break
     if opc <= len(alunos) - 1:
         print(f"Notas de {alunos[opc][0]} são {alunos[opc][1]}")
+        
+        
+        
+        
+        #
