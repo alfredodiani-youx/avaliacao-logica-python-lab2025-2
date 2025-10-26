@@ -7,8 +7,8 @@ O objetivo deste trabalho é aplicar os principais conceitos aprendidos ao longo
 
 ## 🧾 Informações Gerais
 
-**Aluno:** _[Seu nome aqui]_    
-**Data de entrega:** _[Definir data]_
+**Aluno:** Agatha    
+**Data de entrega:** 27/10/2025
 
 ---
 
@@ -88,76 +88,47 @@ avaliacao-logica-python-seu-nome/
 ## 🧩 Exercícios
 
 ### **Exercício 1 – Entrada, Processamento e Saída**
-Crie um programa que:
-- Peça ao usuário **nome**, **idade** e **nota média** (float).
-- Calcule:
-  - Daqui quantos anos o usuário terá 100 anos.
-  - Se a nota média é **acima da média da turma (>= 7.0)** ou não.
-- Exiba uma mensagem formatada com todas as informações.
-
+Explicação:
+O programa pede que o usuário digite seu nome, idade e nota média.
+Em seguida, ele calcula quantos anos faltam para o usuário completar 100 anos e verifica se a nota está acima ou abaixo da média da turma (considerando o 7 como média).
+Depois, o programa exibe mensagens personalizadas, mostrando o nome, a idade, quanto falta para 100 anos e a situação da nota.
 ---
 
 ### **Exercício 2 – Listas e Laços de Repetição**
-Crie um programa que:
-- Leia **5 números inteiros** e armazene-os em uma lista.
-- Exiba:
-  - O **maior**, **menor** e **média** dos valores.
-  - A lista em **ordem crescente e decrescente**.
-- Peça um número e informe se ele está na lista e em qual posição.
-
+Explicação:
+O programa pede que o usuário digite 5 números, que são armazenados em uma lista.
+Em seguida, ele calcula a média dos valores, mostra o maior e o menor número, e exibe a lista em ordem crescente e decrescente.
+Depois, o usuário digita um número para o programa verificar se ele está presente na lista.
+Se estiver, o programa mostra a posição em que o número aparece, se não estiver, informa que ele não foi encontrado.
 ---
 
-### **Exercício 3 – Listas Compostas e Navegação**
-Crie um programa que registre **nome** e **notas** de **vários** alunos.
-- Estruture os dados como:
-  ```python
-  alunos = [[nome, [nota1, nota2]], ...]
-  ```
-- Mostre um boletim com nome e média.
-- Permita consultar as notas de um aluno pelo número de índice.
 
+### **Exercício 3 – Listas Compostas e Navegação**
+Explicação:
+O programa serve para cadastrar alunos, guardar suas notas e permitir consultas depois.
+Ele usa listas para armazenar os dados e laços while para repetir as ações até o usuário decidir parar.
+Primeiro, o programa pede o nome do aluno e permite que o usuário digite quantas notas quiser.
+Depois de registrar cada aluno com suas notas, ele guarda tudo em uma lista principal chamada listadealunos.
+Em seguida, o programa calcula a média das notas de cada aluno e mostra uma lista geral com os nomes e médias.
+Por fim, o usuário pode consultar as notas completas de um aluno específico digitando o número de índice correspondente.
 ---
 
 ### **Exercício 4 – Funções e Dicionários**
-Crie uma função `analisar_aluno(nome, notas)` que:
-- Recebe o nome e uma lista de notas.
-- Retorna um dicionário:
-  ```python
-  {"nome": "Maria", "media": 8.5, "situacao": "Aprovado"}
-  ```
-- No programa principal, cadastre 3 alunos e exiba o relatório completo.
-
+Explicação:
+O programa pega uma lista de alunos e notas que já estão prontas no código e faz uma análise de cada um.
+Ele usa uma função que calcula a média das notas e define se o aluno está aprovado ou reprovado.
+Depois, ele percorre a lista, aplica a função em cada aluno e guarda os resultados em outra lista de relatórios.
+No final, o programa mostra um resumo bem organizado de cada aluno, com nome, média e situação.
 ---
 
 ### **Exercício 5 – Projeto Final: Gerenciador de Tarefas (To-Do List)**
-Crie um **sistema simples de tarefas** separando as funcionalidades em funções no Python.
-O sistema deve ter um menu interativo:
-
-```
-1 – Adicionar tarefa
-2 – Listar tarefas
-3 – Marcar tarefa como concluída
-4 – Remover tarefa
-5 – Sair
-```
-
-As tarefas devem ser armazenadas como **lista de dicionários**:
-```python
-tarefas = [
-    {"titulo": "Estudar Python", "concluida": False},
-    {"titulo": "Enviar avaliação", "concluida": True}
-]
-```
-
-Ao listar tarefas:
-```
-[ ] 1 - Estudar Python
-[x] 2 - Enviar avaliação
-```
-
-O programa só termina quando o usuário escolher “Sair”.
-
----
+Explicação:
+O programa vai funcionar como um assistente simples para sua lista de tarefas.
+Eu organizei o código em pequenas partes (funções) para cada ação:
+Uma função mostra o menu com as opções (Adicionar, Listar, etc.).A função principal fica repetindo o menu e aguardando sua escolha.
+Quando você escolhe uma opção (como adicionar), a função correspondente entra em ação e modifica a lista global de tarefas.
+A lista de tarefas se atualiza conforme você insere ou remove itens. Ele só encerra quando você escolhe a opção "Sair"---
+   ---
 
 ## 🧮 Critérios de Avaliação
 
@@ -187,11 +158,11 @@ O programa só termina quando o usuário escolher “Sair”.
 
 ## ✅ Checklist Antes da Entrega
 
-- [ ] Todos os exercícios estão funcionando corretamente  
-- [ ] Cada exercício tem seu próprio commit   
-- [ ] O `README.md` está preenchido com meus dados  
-- [ ] O código está indentado e comentado  
-- [ ] Testei todos os programas antes de enviar  
+- [X] Todos os exercícios estão funcionando corretamente  
+- [X] Cada exercício tem seu próprio commit   
+- [X] O `README.md` está preenchido com meus dados  
+- [X] O código está indentado e comentado  
+- [X] Testei todos os programas antes de enviar  
 
 ---
 
