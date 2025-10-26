@@ -20,12 +20,9 @@ ver se ele tinha passado ou nao de ano
 ---
 
 ### **Exercício 2 – Listas e Laços de Repetição**
-Crie um programa que:
-- Leia **5 números inteiros** e armazene-os em uma lista.
-- Exiba:
-  - O **maior**, **menor** e **média** dos valores.
-  - A lista em **ordem crescente e decrescente**.
-- Peça um número e informe se ele está na lista e em qual posição.
+Crie um programa que pedi 5 numeros e fala qual eo maior e o menor
+ea media usando (max,min,len e sum)
+e depois descobrindo se o numero que a pessoa digitou esta ou nao na lista usando if 
 
 ---
 
