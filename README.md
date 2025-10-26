@@ -113,7 +113,7 @@ O que o programa faz:
 
 ### **Exercício 4 – Funções e Dicionários**
 O que o programa faz:
-- O programa já tem uma função que faz a **média** das notas do **aluno**, se a média dele for **igual** ou **maior** que **7** o aluno está **Aprovado**, e se for abaixo de **7** ele está **Reprovado**, após isso, ele retorna todos os valores em um **dicionario**.
+- O programa já tem uma função que faz a **média** das notas do **aluno**, se média dele for **igual** ou **maior** que **7** o aluno está **Aprovado**, e se for abaixo de **7** ele está **Reprovado**, após isso, ele retorna todos os valores em um **dicionario**.
 - No funcionamento do programa, de início ele pede ao usuário o **nome** do aluno, e **duas notas** dele. O programa repete isso **três** vezes, e a cada final de repetição ele chama a função, e todos os valores que foram digitados pelo usuário, irão para a função, e na função o programa fará os cálculos e retornará tudo em um **dicionário** na lista **alunos**.
 - Após isso, o programa irá printar o **nome** do aluno, sua **média** e sua **situação (Aprovado/Reprovado)**.
 

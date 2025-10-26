@@ -13,8 +13,8 @@ for c in range(1, 4):
     nome = str(input(f'Digite o nome do {c}º aluno: '))
 
     notasAluno = []
-    for n in range(2):
-        notas = float(input(f'Digite sua {n + 1}ª nota: '))
+    for n in range(1, 3):
+        notas = float(input(f'Digite sua {n}ª nota: '))
         notasAluno.append(notas)
 
     informacoesAluno = analisarAluno(nome, notasAluno)
