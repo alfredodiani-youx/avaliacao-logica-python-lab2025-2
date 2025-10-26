@@ -40,10 +40,10 @@ def main():
         if not escolha.isdigit():
             print('Coloca um número aí, por favor...')
             continue
-        idx = int(escolha)
-        if 0 <= idx < len(alunos):
-            nome = alunos[idx][0]
-            notas = ver_notas(alunos, idx)
+        index = int(escolha)
+        if 0 <= index < len(alunos):
+            nome = alunos[index][0]
+            notas = ver_notas(alunos, index)
             print(f'Notas do {nome}: {notas}')
         else:
             print('Índice inválido, tenta outro.')
