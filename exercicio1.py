@@ -10,7 +10,7 @@ print(f'Só uma curiosidade,daqui {daqui100} você tera 100 anos')
 
 
 
-print('-=' *18)
+print('-=' *30)
 print(f'   seu nome é {nome}')
 print('-' *35)
 print(f'   Você tem {idade} anos')
@@ -18,4 +18,9 @@ print('-' *35)
 print(f'   daqui {daqui100} você tera 100 anos')
 print('-' *35)
 print(f'   e média da turma foi de {nota}')
-print('-=' *18)
+if nota > 7:
+    print('parabens a sua turma teve a média exelente')
+else:
+    print('fale para a sua turma estudar mais ficaram a baixo da média.')
+
+print('-=' * 30)
