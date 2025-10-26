@@ -24,3 +24,6 @@ else:
     print('fale para a sua turma estudar mais ficaram a baixo da média.')
 
 print('-=' * 30)
+
+
+#concertando o git
