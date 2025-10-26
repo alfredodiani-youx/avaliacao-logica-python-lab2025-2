@@ -35,3 +35,7 @@ if posicoes:
     print(f'O número {busca} está na lista nas posição(ões): {pos_str}.')
 else:
     print(f'O número {busca} não está na lista.')
+    
+    
+    
+    #arrumando git
