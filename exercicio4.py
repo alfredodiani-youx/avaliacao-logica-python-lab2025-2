@@ -13,7 +13,7 @@ def analisar_aluno(nome, notas):
 
 alunos = []
 
-print("=== Cadastro de Alunos ===")
+print("=== REGISTRO DE ALUNOS ===")
 for i in range(3):
     print(f'\nAluno {i+1}')
     nome = input('Nome: ')
@@ -22,7 +22,7 @@ for i in range(3):
     aluno = analisar_aluno(nome, [n1, n2])
     alunos.append(aluno)
 
-print("\n=== RELATÓRIO FINAL ===")
+print("\n=== RESULTADO FINAL ===")
 print('Nome\t\tMédia\tSituação')
 for a in alunos:
     print(f'{a["nome"]:<15}{a["media"]:<6.1f}{a["situacao"]}')
