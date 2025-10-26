@@ -1,4 +1,4 @@
-alunos = []  # Lista principal
+alunos = []
 
 while True:
     nome = str(input("Nome do aluno: ")).strip()
@@ -22,7 +22,7 @@ print("-" * 34)
 
 
 while True:
-    opc = int(input("Mostrar notas de qual aluno? (999 interrompe): "))
+    opc = int(input("Revelar a nota de qual aluno? (999 interrompe): "))
     if opc == 999:
         break
     if opc >= len(alunos) or opc < 0:
