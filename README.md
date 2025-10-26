@@ -27,13 +27,13 @@ e depois descobrindo se o numero que a pessoa digitou esta ou nao na lista usand
 ---
 
 ### **Exercício 3 – Listas Compostas e Navegação**
-Crie um programa que registre **nome** e **notas** de **vários** alunos.
-- Estruture os dados como:
-  ```python
-  alunos = [[nome, [nota1, nota2]], ...]
-  ```
-- Mostre um boletim com nome e média.
-- Permita consultar as notas de um aluno pelo número de índice.
+ Eu crie duas lista dado de aluno e lista de aluno,dado de aluno recebia as inofrmaçoes e
+depois eu adicionava em lista usando append e depois apagava tudo de dado de alunos pra ele 
+receber novas informaçoes,usei while pra cadastras varios alunos,depois percorri a lista usando for pra descobri a media
+e mostrava as informaçoes do aluno ex(joao, ea media foi 5.5)
+ crie outro loop pra pessoa descobrir a nota do aluno escolhido exibindo nome,primeira nota e segunda nota
+e se o usario diggitasse 999 o programa parava 
+
 
 ---
 
