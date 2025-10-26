@@ -8,7 +8,7 @@ O objetivo deste trabalho é aplicar os principais conceitos aprendidos ao longo
 ## 🧾 Informações Gerais
 
 **Aluno:** JOAO GABRIEL BORGES   
-**Data de entrega:** _[Definir data]_
+**Data de entrega:** 26/10/2025
 
 
 ## 🧩 Exercícios
@@ -44,73 +44,4 @@ mostra um relatorio com todas as informaçoes usei (def,dicionario,sum,len,if/el
 ---
 
 ### **Exercício 5 – Projeto Final: Gerenciador de Tarefas (To-Do List)**
-Crie um **sistema simples de tarefas** separando as funcionalidades em funções no Python.
-O sistema deve ter um menu interativo:
-
-```
-1 – Adicionar tarefa
-2 – Listar tarefas
-3 – Marcar tarefa como concluída
-4 – Remover tarefa
-5 – Sair
-```
-
-As tarefas devem ser armazenadas como **lista de dicionários**:
-```python
-tarefas = [
-    {"titulo": "Estudar Python", "concluida": False},
-    {"titulo": "Enviar avaliação", "concluida": True}
-]
-```
-
-Ao listar tarefas:
-```
-[ ] 1 - Estudar Python
-[x] 2 - Enviar avaliação
-```
-
-O programa só termina quando o usuário escolher “Sair”.
-
----
-
-## 🧮 Critérios de Avaliação
-
-| Critério | Peso |
-|----------|------|
-| Funcionamento correto dos programas | 40% |
-| Clareza e legibilidade do código | 20% |
-| Uso adequado das estruturas de lógica | 20% |
-| Organização e histórico de commits no GitHub | 10% |
-| README explicativo e funcional | 10% |
-
----
-
-## 💡 Boas Práticas Recomendadas
-
-- Use **nomes claros** para variáveis e funções.  
-- Faça **comentários curtos** explicando trechos importantes.  
-- Evite código duplicado.  
-- Teste seus programas antes de subir para o GitHub.  
-- Faça commits **com mensagens descritivas**, por exemplo:
-  ```
-  feat: exercício 3 – cadastro e boletim de alunos
-  fix: corrigido cálculo de média
-  ```
-
----
-
-## ✅ Checklist Antes da Entrega
-
-- [ ] Todos os exercícios estão funcionando corretamente  
-- [ ] Cada exercício tem seu próprio commit   
-- [ ] O `README.md` está preenchido com meus dados  
-- [ ] O código está indentado e comentado  
-- [ ] Testei todos os programas antes de enviar  
-
----
-
-## 🚀 Entrega
-
-Faça o commit de todos os exercícios até a data limite informada.
-
-Boa sorte e bom código! 🐍
+Eu fiz um programinha em python que guarda tarefas numa lista, cada tarefa tem o nome e se ta feita ou nao. Da pra adicionar tarefa, listar, marcar como feita, remover e sair. Usei input pra digitar, append pra add na lista, len pra contar, enumerate pra numerar, pop pra tirar e while True pra o menu ficar rodando até escolher sair.
