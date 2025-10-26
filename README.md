@@ -31,4 +31,4 @@ Cada aluno é colocado dentro de uma lista, e no final o programa mostra o bolet
 Exercicio 5
 Meu programa cria uma lista de tarefas onde o usuário pode adicionar, listar, marcar como concluída e remover tarefas.
 Depois guarda as tarefas em uma lista com o nome e o status (se está feita ou não).
-O menu aparece várias vezes até o usuário escolher sair.
+O menu aparece várias vezes até o usuário escolher sair do programa 
