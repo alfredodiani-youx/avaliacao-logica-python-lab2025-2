@@ -7,7 +7,7 @@ O objetivo deste trabalho é aplicar os principais conceitos aprendidos ao longo
 
 ## 🧾 Informações Gerais
 
-**Aluno:** _[Seu nome aqui]_    
+**Aluno:** João Othávio
 **Data de entrega:** _[Definir data]_
 
 ---
@@ -105,13 +105,9 @@ O que o programa faz:
 ---
 
 ### **Exercício 3 – Listas Compostas e Navegação**
-Crie um programa que registre **nome** e **notas** de **vários** alunos.
-- Estruture os dados como:
-  ```python
-  alunos = [[nome, [nota1, nota2]], ...]
-  ```
-- Mostre um boletim com nome e média.
-- Permita consultar as notas de um aluno pelo número de índice.
+O que o programa faz:
+- O programa começa pedindo ao usuário qual o **nome** do aluno, sua **primeira nota** e a **segunda nota**, apos isso, ele faz o cálculo da média entre as duas notas e guarda em uma variavel chamada **media**, e por fim pergunta ao usuário se deseja continuar adicionando **alunos** e **notas**.
+- Depois que o usuário dizer ao programa que **não** deseja adicionar mais alunos, ele vai printar um **boletim** com a **posição** do aluno, o **nome** do aluno, e sua **média**, e logo após vai perguntar ao usuário se ele deseja ver a nota indivídual de algum aluno, se ele digitar o **índice** de algum aluno, vai aparecer seu **nome** e suas **notas**, e se ele digitar **-1** o programa encerra.
 
 ---
 
