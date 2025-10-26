@@ -199,4 +199,4 @@ O programa só termina quando o usuário escolher “Sair”.
 
 Faça o commit de todos os exercícios até a data limite informada.
 
-Boa sorte e bom código! 🐍
+Boa sorte e bom código! 🐍 amém
