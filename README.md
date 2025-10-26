@@ -7,8 +7,8 @@ O objetivo deste trabalho é aplicar os principais conceitos aprendidos ao longo
 
 ## 🧾 Informações Gerais
 
-**Aluno:** _[Seu nome aqui]_    
-**Data de entrega:** _[Definir data]_
+**Aluno:** _[Giovane de Carvalho Manhães Silva]_    
+**Data de entrega:** _[27/10/2025]_
 
 ---
 
@@ -182,16 +182,16 @@ O programa só termina quando o usuário escolher “Sair”.
   feat: exercício 3 – cadastro e boletim de alunos
   fix: corrigido cálculo de média
   ```
-
+mero
 ---
 
 ## ✅ Checklist Antes da Entrega
 
-- [ ] Todos os exercícios estão funcionando corretamente  
-- [ ] Cada exercício tem seu próprio commit   
-- [ ] O `README.md` está preenchido com meus dados  
-- [ ] O código está indentado e comentado  
-- [ ] Testei todos os programas antes de enviar  
+- [✔] Todos os exercícios estão funcionando corretamente  
+- [✔] Cada exercício tem seu próprio commit   
+- [✔] O `README.md` está preenchido com meus dados  
+- [✔] O código está indentado e comentado  
+- [✔] Testei todos os programas antes de enviar  
 
 ---
 
@@ -200,3 +200,14 @@ O programa só termina quando o usuário escolher “Sair”.
 Faça o commit de todos os exercícios até a data limite informada.
 
 Boa sorte e bom código! 🐍
+
+exercicio1.py ( O programa faz o registro pessoal,fala daqui a quanto tempo a pessoa terá 100 anos,e de acordo com a nota que a pessoa colocar vai aparecer a sua situação,Acima da média e Abaixo da média.) 
+
+exercicio2.py  ( O programa pede para digitar 5 número, ele informa o maior número digita e o menor,logo após os números na ordem crescente e decrescente.E também pede para digitar um número para saber se está na lista e a sua posição.)
+
+exercicio3.py  ( O programa pede o nome do aluno e duas notas,e logo faz uma tabela com o nome do aluno e sua média.)
+
+exercicio4.py  ( O programa faz o registro do aluno pedindo nome e duas notas,e logo faz uma tabela com a sua média e a sua sitiação(aprovado/reprovado). )
+
+exercicio5.py  (
+
