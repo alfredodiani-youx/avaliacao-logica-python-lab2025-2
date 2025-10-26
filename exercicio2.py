@@ -20,4 +20,4 @@ busca = int(input("\nDigite um número para verificar se está na lista: "))
 if busca in numeros:
     print(f"O número {busca} está na posição {numeros.index(busca)}")
 else:
-    print("NÚMERO NÃO ENCONTRADO NA LISTA.")
+    print("NÚMERO NÃO ENCONTRADO NA LISTA.!")
