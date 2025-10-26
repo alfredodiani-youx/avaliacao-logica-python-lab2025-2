@@ -38,13 +38,8 @@ e se o usario diggitasse 999 o programa parava
 ---
 
 ### **Exercício 4 – Funções e Dicionários**
-Crie uma função `analisar_aluno(nome, notas)` que:
-- Recebe o nome e uma lista de notas.
-- Retorna um dicionário:
-  ```python
-  {"nome": "Maria", "media": 8.5, "situacao": "Aprovado"}
-  ```
-- No programa principal, cadastre 3 alunos e exiba o relatório completo.
+crie um codigo que cadastra alunos com notas,calcula a media, diz se foi aprovado ou reprovado e 
+mostra um relatorio com todas as informaçoes usei (def,dicionario,sum,len,if/else,lista,while true,)
 
 ---
 
