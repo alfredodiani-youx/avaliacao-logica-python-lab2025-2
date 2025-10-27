@@ -9,4 +9,4 @@ if nota >= 7.0:
 else:
     print('Sua nota está a baixo da madia')
 
-print(f"Voce tera 100 anos daqui há {ano}")
+print(f"Voce tera 100 anos daqui há {ano}") 
