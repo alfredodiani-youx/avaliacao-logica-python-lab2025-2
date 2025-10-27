@@ -1,4 +1,4 @@
-# cadastra o aluno e seus dados
+# cadastra o aluno e os seus dados
 def cadastrar():
     alunos = []
     print('Vamos cadastrar os alunos! (deixe o nome vazio pra parar)')
