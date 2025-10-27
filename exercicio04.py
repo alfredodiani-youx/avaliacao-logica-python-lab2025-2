@@ -1,5 +1,3 @@
-
-
 def analisar_aluno(nome, notas):
     media = sum(notas) / len(notas)
     if media >= 7:
@@ -27,5 +25,5 @@ print(" ")
 print("→ Dicionário de alunos ←")
 for aluno in alunos:
     print(f"Nome:{aluno['nome']}")
-    print(f"Média:{aluno['media']}")
+    print(f"Média:{aluno['media']:.2f}")
     print(f"Situação:{aluno['situacao']}")

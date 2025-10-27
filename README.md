@@ -125,6 +125,7 @@ Este programa mostra um menu onde se pode executar as seguintes informaçoẽs:
  - Marcar tarefa como concluída
  - Remover tarefa
  - Sair
+
 Onde cada um recebe uma função para funcionar.
 ---
 

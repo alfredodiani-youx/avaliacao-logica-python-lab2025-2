@@ -1,10 +1,3 @@
-# Este programa contém um lista chamada valores onde armazena 5 valores e mostra ao final, o maior valor da lista e o menor,
-# a média, mostra a lista em ordem crescente e decrescente com os comandos sorted() e sorted/True e também mostra em qual posição está o número que
-# o úsuario desejar procurar.
-
-
-
-
 valores = []
 
 for numeros in range(5):
