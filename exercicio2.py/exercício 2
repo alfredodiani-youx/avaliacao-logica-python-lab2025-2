@@ -1,0 +1,43 @@
+lista = []
+
+print("Digite 5 números inteiros:")
+for i in range(1, 6):
+    numero = int(input("Número " + str(i) + ": "))
+    lista.append(numero)
+
+print("\nOs números digitados foram:", lista)
+
+maior = lista[0]
+menor = lista[0]
+soma = 0
+
+for n in lista:
+    if n > maior:
+        maior = n
+    if n < menor:
+        menor = n
+    soma = soma + n
+
+media = soma / 5
+
+print("Maior número:", maior)
+print("Menor número:", menor)
+print("Média dos números que você digitou:", media)
+
+crescente = sorted(lista)
+decrescente = sorted(lista, reverse=True)
+
+print("Ordem crescente:", crescente)
+print("Ordem decrescente:", decrescente)
+
+procura = int(input("\nColoque um número aqui para vermos se está na lista: "))
+
+encontrado = False
+for i in range(len(lista)):
+    if lista[i] == procura:
+        print("O número", procura, "está na posição", i)
+        encontrado = True
+        break
+
+if not encontrado:
+    print("O número", procura, "não está na lista.")

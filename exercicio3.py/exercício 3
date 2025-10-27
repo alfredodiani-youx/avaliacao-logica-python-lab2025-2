@@ -1,0 +1,27 @@
+alunos = []
+
+while True:
+    nome = input("Nome do aluno: ")
+    nota1 = float(input("Nota 1: "))
+    nota2 = float(input("Nota 2: "))
+    alunos.append([nome, [nota1, nota2]])
+
+    continuar = input("Deseja cadastrar outro aluno? (s/n): ")
+    if continuar.lower() == 'n':
+        break
+
+print("\nBoletim")
+print("Nº ~ Nome:                Média:")
+
+for i in range(len(alunos)):
+    media = (alunos[i][1][0] + alunos[i][1][1]) / 2
+    print(i, " ~ ", alunos[i][0], " " * (15 - len(alunos[i][0])), " ~ ", media)
+
+while True:
+    opcao = int(input("\nDeseja mostrar notas de qual aluno? (999 para sair): "))
+    if opcao == 999:
+        break
+    if opcao >= 0 and opcao < len(alunos):
+        print("Notas de", alunos[opcao][0], "são:", alunos[opcao][1])
+    else:
+        print("Número inválido, tente novamente.")

@@ -7,8 +7,8 @@ O objetivo deste trabalho é aplicar os principais conceitos aprendidos ao longo
 
 ## 🧾 Informações Gerais
 
-**Aluno:** _[Seu nome aqui]_    
-**Data de entrega:** _[Definir data]_
+**Aluno:** _[Isabela Milene Soares Clemente]_    
+**Data de entrega:** _[27/10/2025]_
 
 ---
 
@@ -75,7 +75,7 @@ avaliacao-logica-python-seu-nome/
 │
 ├── exercicio1.py
 ├── exercicio2.py
-├── exercicio3.py
+├── exercicio2.py
 ├── exercicio4.py
 ├── exercicio5_todolist.py
 └── README.md
@@ -200,3 +200,74 @@ O programa só termina quando o usuário escolher “Sair”.
 Faça o commit de todos os exercícios até a data limite informada.
 
 Boa sorte e bom código! 🐍
+
+## Explicando oque cada um do meus programas faz!
+
+EXERCÍCIO 01
+Mostra uma mensagem dizendo “Nome, Idade, nota, quantos anos daqui 100 anos”.
+Pede pra pessoa digitar o nome, a idade e a nota média.
+Calcula quantos anos faltam pra pessoa fazer 100 anos.
+Checa se a nota é 7 ou mais e fala se tá acima ou abaixo da média da turma.
+Mostra tudo na tela: nome, idade, nota e se tá acima ou abaixo da média.
+Diz quantos anos faltam pra chegar a 100 ou avisa se a pessoa já tem 100 anos ou mais.
+Basicamente, ele pega os dados que você digita, faz umas continhas e mostra um resumão na tela.
+
+
+ EXERCÍCIO 02 
+Mostra a mensagem “Digite 5 números inteiros:”.
+Pede pra pessoa digitar 5 números, um por vez, e guarda todos numa lista.
+Mostra a lista completa com todos os números digitados.
+Descobre qual é o maior número, qual é o menor e a média desses números.
+Mostra na tela o maior número, o menor e a média.
+Cria uma versão da lista em ordem crescente e outra em ordem decrescente e mostra na tela.
+Pede pra pessoa digitar um número e verifica se ele está na lista.
+Se o número estiver, mostra em qual posição da lista ele está.
+Se não estiver, avisa que o número não está na lista.
+   
+
+EXERCÍCIO 03
+Cria uma lista vazia chamada alunos.
+Entra num loop pedindo para cadastrar alunos
+Pede o nome do aluno.
+Pede a nota 1 e nota 2.
+Coloca tudo na lista alunos como [nome, [nota1, nota2]].
+Pergunta se quer cadastrar outro aluno. Se a pessoa digitar “n”, para de pedir.
+Mostra na tela um boletim com todos os alunos
+Cada aluno aparece com o número dele, nome e média das notas.
+Entra em outro loop perguntando qual aluno a pessoa quer ver as notas detalhadas
+Se digitar um número válido, mostra as duas notas do aluno.
+Se digitar 999, sai do loop.
+Se digitar um número que não existe, avisa que é inválido.
+Basicamente, o programa cadastra vários alunos, mostra a média de cada um e permite ver as notas detalhadas de qualquer aluno.
+
+
+
+EXERCÍCIO 04
+Eu criei uma função chamada analisar_aluno que recebe o nome e as duas notas de um aluno.
+Calcula a média das notas.
+Fala se o aluno está Aprovado (média >= 7) ou Reprovado.
+Me devolve essas coisas que pedi em um dicionário com nome, média e situação.
+Depois eu crio uma lista chamada alunos pra guardar todos os dicionários.
+Eu peço pra cadastrar 3 alunos
+Pergunto o nome, a nota 1 e a nota 2.
+Uso a função analisar_aluno pra criar o dicionário e coloco na lista alunos.
+No final, eu mostro na tela um relatório com todos os alunos e as informações que a função deu.
+Resumindo, meu programa pega nome e notas de 3 alunos, calcula a média, fala se passou ou não e mostra tudo organizado no final.
+
+
+
+EXERCÍCIO 05
+Eu começo com uma lista vazia chamada tarefas.
+Eu criei algumas funções pra organizar tudo
+adicionar_tarefa() pede o título da tarefa e coloca na lista como não concluída.
+listar_tarefas() mostra todas as tarefas com um “[ ]” se não tá feita e “[x]” se tá concluída.
+marcar_concluida() deixa eu escolher uma tarefa e marcar como feita.
+remover_tarefa() deixa eu escolher uma tarefa e apagar da lista.
+Depois eu faço um menu que fica rodando até eu escolher sair
+Opção 1 adiciona tarefa.
+Opção 2 mostra a lista.
+Opção 3 marca uma tarefa como concluída.
+Opção 4 remove uma tarefa.
+Opção 5 sai do programa.
+Qualquer outra coisa dá aviso de “Opção inválida”.
+Resumindo, meu programa me deixa gerenciar minhas tarefas adicionar, ver, marcar como feita e remover, tudo pelo menu.

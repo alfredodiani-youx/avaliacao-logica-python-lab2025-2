@@ -1,0 +1,22 @@
+print(" Nome, Idade, nota, quantos anos daqui 100 anos ")
+
+nome = input("Coloque seu nome aqui: ")
+idade = int(input("Coloque sua idade aqui: "))
+nota = float(input("Coloque sua nota média aqui: "))
+
+anos100 = 100 - idade
+
+if nota >= 7.0:
+    media= "acima da média da sua turma"
+else:
+    media = "abaixo da média da sua turma"
+
+print("Nome:", nome)
+print("Idade:", idade)
+print("Nota média:", nota)
+print("Sua nota está", media)
+
+if anos100 > 0:
+    print("Você terá 100 anos em", anos100, "anos.")
+else:
+    print("Você já tem 100 anos ou mais!")
