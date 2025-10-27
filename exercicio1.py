@@ -2,7 +2,7 @@ nome = input('Nome do aluno: ')
 idade = int(input('Sua idade: '))
 media = float(input('Digite a média: '))
 
-calculoIdade = idade - 100
+calculoIdade =  100 - idade
 
 print('-' * 30)
 print(f'Sua idade daqui a 100 anos é:{calculoIdade}')

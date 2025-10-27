@@ -7,7 +7,7 @@ for l in range(5):
 
 media = sum(listaNumero) / 5
 num_cresente = sorted(listaNumero)
-num_decrescente = sorted(listaNumero, reverse=True)
+num_decrescente = sorted(listaNumero, reverse = True)
 
 print(f'Maior numero: {max(listaNumero)}')
 print(f'Menor numero: {min(listaNumero)}')
