@@ -88,22 +88,16 @@ avaliacao-logica-python-seu-nome/
 ## 🧩 Exercícios
 
 ### **Exercício 1 – Entrada, Processamento e Saída**
-Crie um programa que:
-- Peça ao usuário **nome**, **idade** e **nota média** (float).
-- Calcule:
-  - Daqui quantos anos o usuário terá 100 anos.
-  - Se a nota média é **acima da média da turma (>= 7.0)** ou não.
-- Exiba uma mensagem formatada com todas as informações.
+
+ Esse programa pede o nome, idade e a media do úsuario; calcula a média e verifica se se ele(úsuario) está acima ou abaixo da média.
+
 
 ---
 
 ### **Exercício 2 – Listas e Laços de Repetição**
-Crie um programa que:
-- Leia **5 números inteiros** e armazene-os em uma lista.
-- Exiba:
-  - O **maior**, **menor** e **média** dos valores.
-  - A lista em **ordem crescente e decrescente**.
-- Peça um número e informe se ele está na lista e em qual posição.
+Este programa contém um lista chamada valores onde armazena 5 valores e mostra ao final, o maior valor da lista e o menor,
+a média, mostra a lista em ordem crescente e decrescente com os comandos sorted() e sorted/True e também mostra em qual posição está o número que
+o úsuario desejar procurar.
 
 ---
 
@@ -119,44 +113,19 @@ Crie um programa que registre **nome** e **notas** de **vários** alunos.
 ---
 
 ### **Exercício 4 – Funções e Dicionários**
-Crie uma função `analisar_aluno(nome, notas)` que:
-- Recebe o nome e uma lista de notas.
-- Retorna um dicionário:
-  ```python
-  {"nome": "Maria", "media": 8.5, "situacao": "Aprovado"}
-  ```
-- No programa principal, cadastre 3 alunos e exiba o relatório completo.
+Este programa cadastra 3 usuários, pedindo o nome e notas a ele, e comparando a média dele para ver 
+a sua situação além de poder ver os dados do usuário que vocẽ quiser
 
 ---
 
 ### **Exercício 5 – Projeto Final: Gerenciador de Tarefas (To-Do List)**
-Crie um **sistema simples de tarefas** separando as funcionalidades em funções no Python.
-O sistema deve ter um menu interativo:
-
-```
-1 – Adicionar tarefa
-2 – Listar tarefas
-3 – Marcar tarefa como concluída
-4 – Remover tarefa
-5 – Sair
-```
-
-As tarefas devem ser armazenadas como **lista de dicionários**:
-```python
-tarefas = [
-    {"titulo": "Estudar Python", "concluida": False},
-    {"titulo": "Enviar avaliação", "concluida": True}
-]
-```
-
-Ao listar tarefas:
-```
-[ ] 1 - Estudar Python
-[x] 2 - Enviar avaliação
-```
-
-O programa só termina quando o usuário escolher “Sair”.
-
+Este programa mostra um menu onde se pode executar as seguintes informaçoẽs: 
+ - Adicionar tarefa
+ - Listar tarefas
+ - Marcar tarefa como concluída
+ - Remover tarefa
+ - Sair
+Onde cada um recebe uma função para funcionar.
 ---
 
 ## 🧮 Critérios de Avaliação

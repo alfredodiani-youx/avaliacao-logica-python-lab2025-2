@@ -1,3 +1,5 @@
+
+
 def analisar_aluno(nome, notas):
     media = sum(notas) / len(notas)
     if media >= 7:

@@ -1,3 +1,4 @@
+
 resposta = 'S'
 alunos = []
 lista_nomes = []
