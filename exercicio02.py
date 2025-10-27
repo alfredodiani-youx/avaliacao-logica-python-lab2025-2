@@ -14,10 +14,10 @@ media=soma/5
 print(f'LISTA FEITA! o maior número inserido foi {maior} o menor foi {menor} e a media dos números foi {media}')
 print(f'Lista em ordem crescente {sorted(numeros)}')
 print(f'Lista em ordem decrescente {sorted(numeros, reverse=True)}')
-verificação= int(input('Insira um valor para verificarmos usa existencia na lista e sua posição'))
-if verificação in numeros:
+verificacao= int(input('Insira um valor para verificarmos usa existencia na lista e sua posição'))
+if verificacao in numeros:
     for i, valor in enumerate(numeros):
-        if valor == verificação:
-            print(f'O número {verificação} está na posição {i}')
+        if valor == verificacao:
+            print(f'O número {verificacao} está na posição {i}')
 else:
     print(f'O número não esta na lista')
