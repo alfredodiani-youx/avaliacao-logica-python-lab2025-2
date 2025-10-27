@@ -27,8 +27,9 @@ print("Média dos números que você digitou:", media)
 crescente = sorted(lista)
 decrescente = sorted(lista, reverse=True)
 
-print("Ordem crescente:", crescente)
-print("Ordem decrescente:", decrescente)
+print("Ordem crescente: ", crescente)
+print("Ordem decrescente: ", decrescente)
+
 
 procura = int(input("\nColoque um número aqui para vermos se está na lista: "))
 
