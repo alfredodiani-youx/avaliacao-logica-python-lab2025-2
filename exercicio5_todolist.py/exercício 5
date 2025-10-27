@@ -10,7 +10,7 @@ def listar_tarefas():
     if len(tarefas) == 0:
         print("Nenhuma tarefa cadastrada.\n")
     else:
-        print("\n~~LISTA DE TAREFAS~~")
+        print("\nLISTA DE TAREFAS")
         for l in range(len(tarefas)):
             status = "[x]" if tarefas[l]["concluida"] else "[ ]"
             print(status, l + 1, "-", tarefas[l]["titulo"])
@@ -37,7 +37,7 @@ def remover_tarefa():
             print("Número inválido.\n")
 
 while True:
-    print("~~MENU DAS TAREFAS~~")
+    print("MENU DAS TAREFAS")
     print("1 – Adicionar tarefa")
     print("2 – Listar tarefas")
     print("3 – Marcar tarefa como concluída")
