@@ -1,3 +1,4 @@
+# cadastra o aluno e seus dados
 def cadastrar():
     alunos = []
     print('Vamos cadastrar os alunos! (deixe o nome vazio pra parar)')
@@ -14,7 +15,7 @@ def cadastrar():
         alunos.append([nome, [nota1, nota2]])
     return alunos
 
-
+# mostra o boletim formatatado
 def mostrar_boletim(alunos):
     print('\n=== BOLETIM ===')
     if not alunos:

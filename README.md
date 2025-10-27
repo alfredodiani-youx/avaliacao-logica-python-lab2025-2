@@ -187,11 +187,11 @@ O programa só termina quando o usuário escolher “Sair”.
 
 ## ✅ Checklist Antes da Entrega
 
-- [ ] Todos os exercícios estão funcionando corretamente  
-- [ ] Cada exercício tem seu próprio commit   
-- [ ] O `README.md` está preenchido com meus dados  
+- [x] Todos os exercícios estão funcionando corretamente  
+- [x] Cada exercício tem seu próprio commit   
+- [x] O `README.md` está preenchido com meus dados  
 - [ ] O código está indentado e comentado  
-- [ ] Testei todos os programas antes de enviar  
+- [x] Testei todos os programas antes de enviar  
 
 ---
 

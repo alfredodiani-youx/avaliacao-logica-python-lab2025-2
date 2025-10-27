@@ -1,3 +1,4 @@
+# recebe os dados e coloca eles numa lista
 inteiros = list()
 contador = 0
 while contador < 5:
@@ -5,12 +6,14 @@ while contador < 5:
     contador += 1
     inteiros.append(numeros)
 
+# formata os dados
 maior = max(inteiros)
 menor = min(inteiros)
 media = sum(inteiros) / len(inteiros)
 crescente = sorted(inteiros)
 decrescente = sorted(inteiros, reverse=True)
 
+# mostra os dados formatados
 print(f'O maior número entre os digitados é {maior}')
 print(f'O menor número entre os digitados é {menor}')
 print(f'A média entre os números digitados é {media:.2f}')
