@@ -24,4 +24,4 @@ while True:
     if opcao >= 0 and opcao < len(alunos):
         print("Notas de", alunos[opcao][0], "são:", alunos[opcao][1])
     else:
-        print("Número inválido, tente novamente.")
+        print("Número inválido, tente novamente. ")
