@@ -33,7 +33,7 @@ def marcar_concluida(tarefas):
     lista_tarefas(tarefas)
     if not tarefas:
         return
-    try:
+    else:
         numeroTarefa = int(input('Número da tarefa para marcar como concluída: '))
         if 1 <= numeroTarefa <= len(tarefas):
             tarefa = tarefas[numeroTarefa - 1]
@@ -44,32 +44,24 @@ def marcar_concluida(tarefas):
                 print(f'Tarefa "{tarefa["titulo"]}" marcada como concluída!')
         else:
             print('\033[31mNúmero inválido!\033[m')
-    except ValueError:
-        print('\033[31mDigite um número válido!\033[m')
 
 def remover_tarefas(tarefas):
     lista_tarefas(tarefas)
     if not tarefas:
         return
-    try:
+    else:
         numeroTarefa = int(input('Número da tarefa que deseja remover: '))
         if 1 <= numeroTarefa <= len(tarefas):
             removida = tarefas.pop(numeroTarefa - 1)
             print(f'Tarefa "{removida["titulo"]}" removida!')
         else:
             print('\033[31mNúmero inválido!\033[m')
-    except ValueError:
-        print('\033[31Digite um número válido!\033[m')
 
 def fluxo():
     tarefas = []
     while True:
         menu()
-        try:
-            escolha = int(input('Escolha: '))
-        except ValueError:
-            print('\033[31mDigite um número válido!\033[m')
-            continue
+        escolha = int(input('Escolha: '))
 
         if escolha == 1:
             adicionar_tarefas(tarefas)
