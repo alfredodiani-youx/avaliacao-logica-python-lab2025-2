@@ -162,7 +162,7 @@ O que o programa faz:
 - [✅] Cada exercício tem seu próprio commit   
 - [✅] O `README.md` está preenchido com meus dados  
 - [✅] O código está indentado e comentado  
-- [ ] Testei todos os programas antes de enviar  
+- [✅] Testei todos os programas antes de enviar  
 
 ---
 
