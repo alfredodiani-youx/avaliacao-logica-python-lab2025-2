@@ -4,10 +4,6 @@ import marcar_concluida
 import adicionar_tarefa
 
 
-
-
-
-#def men(tarefas):
 tarefas = []
 while True:
     print("\n=== MENU DE TAREFAS ===")
