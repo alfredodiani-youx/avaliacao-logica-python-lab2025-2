@@ -27,3 +27,4 @@ if escolha in inteiros:
     print(f'O número {escolha} está presente na lista e está na posição {posicaoEscolhida}!')
 else:
     print(f'O número {escolha} não está presente na lista!')
+    
