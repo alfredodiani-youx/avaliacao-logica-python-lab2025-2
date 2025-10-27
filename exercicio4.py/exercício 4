@@ -15,7 +15,7 @@ for i in range(3):
     n2 = float(input("Nota 2: "))
     alunos.append(analisar_aluno(nome, [n1, n2]))
 
-print("\n--- RELATÓRIO ---")
+print("\n RELATÓRIO ")
 for a in alunos:
     print(a)
     
