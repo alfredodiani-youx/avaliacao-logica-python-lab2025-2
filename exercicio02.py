@@ -14,10 +14,10 @@ crescente = sorted(valores)
 decrescente = sorted(valores, reverse=True)
 print(f'A lista em ordem crescente é: {crescente}, e a lista em ordem decrescente é {decrescente}')
 
-numero_buscar = int(input("Qual numero deseja procurar?: "))
+numero_buscar = int(input("Qual número deseja procurar?: "))
 
 if numero_buscar in valores:
     posicao = valores.index(numero_buscar)
     print(f'O número buscado está na posição: {posicao}')
 else:
-    print("Este numero não existe na lista!")
+    print("Este número não existe na lista!")
