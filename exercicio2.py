@@ -1,29 +1,26 @@
-numeros=[]
-maior=0
-menor=1
-numero=1
-numeroMedia=0
-contadorMedia=0
+numeros = []
 
 for c in range(0, 5):
-    numero=int(input('Digite um número: '))
+    numero = int(input('Digite um número: '))
     numeros.append(numero)
-    contadorMedia+=1
+    maiorNumero = max(numeros)
+    menorNumero = min(numeros)
+    media = sum(numeros) / len(numeros)
 
-    numeroMedia =numeroMedia+numero
 
-    media=numeroMedia/contadorMedia
-    
-    if numeroMedia ==1:
-        maior = menor = numero
-    else:
-        if numero > maior:
-            maior = numero
-        if numero < menor:
-            menor = numero 
-            
+
+print('-' * 55)
 print(f'Lista de números: {numeros}')
+print('-' * 55)
 print(f'A média é {media}')
-print(f'O maior número é {maior}')
-print(f'O menor número é {menor}')
-
+print('-' * 55)
+print(f'O maior número é {maiorNumero}')
+print('-' * 55)
+print(f'O menor número é {menorNumero}')
+print('-' * 55)
+numeros.sort()
+print(numeros)
+print('-' * 55)
+numeros.sort(reverse = True)
+print(numeros)
+print('-' * 55)
