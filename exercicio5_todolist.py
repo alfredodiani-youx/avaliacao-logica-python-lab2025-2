@@ -1,5 +1,6 @@
 tarefas = []
 
+# adiciona tarefas
 def adicionar_tarefa(titulo):
     tarefa = {
         "titulo": titulo,
@@ -8,18 +9,18 @@ def adicionar_tarefa(titulo):
     tarefas.append(tarefa)
     print(f'\033[32mNova tarefa "\033[34m{titulo}\033[32m" adicionada\033[m')
 
+# mostras as tarefas salvas
 def listar_tarefas():
     print('\033[35m=== LISTA DE TAREFAS ===\033[m')
     if not tarefas:
         print('\033[33mNenhuma tarefa cadastrada.\033[m')
         return
-    
     for i, tarefa in enumerate(tarefas, 1):
         status = '[x]' if tarefa['concluida'] else '[ ]'
         cor = '\033[32m' if tarefa['concluida'] else '\033[33m'
         print(f'{cor}{status} {i} - {tarefa["titulo"]}\033[m')
 
-
+# marca qual tarefa foi feita
 def marcar_concluida(indice):
     if 0 < indice <= len(tarefas):
         tarefa = tarefas[indice-1]
@@ -28,7 +29,7 @@ def marcar_concluida(indice):
     else:
         print('\033[31mÍndice de tarefa inválido!\033[m')
 
-
+# remove tarefas
 def remover_tarefa(indice):
     if 0 < indice <= len(tarefas):
         tarefa = tarefas.pop(indice-1)
@@ -36,6 +37,7 @@ def remover_tarefa(indice):
     else:
         print('\033[31mÍndice de tarefa inválido!\033[m')
 
+# gera o menu
 def menu():
     print('\033[35m=== MENU PRINCIPAL ===\033[m')
     opcoes = [
@@ -45,11 +47,9 @@ def menu():
         'Remover Tarefa',
         'Sair'
     ]
-    
     for i, opcao in enumerate(opcoes, 1):
         print(f'\033[32m{i}\033[m - {opcao}')
     print()
-    
     while True:
         try:
             escolha = int(input('\033[33mSua opção: \033[32m'))
@@ -59,10 +59,10 @@ def menu():
         except ValueError:
             print('\033[31mPor favor, digite um número!\033[m')
 
+# roda o programa
 def main():
     print('\033[35m=== SISTEMA DE TAREFAS v1.0 ===\033[m')
     print()
-
     while True:
         resposta = menu()
         if resposta == 1:  # Ver Tarefas
@@ -102,4 +102,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
