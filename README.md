@@ -91,7 +91,6 @@ avaliacao-logica-python-seu-nome/
 O código pede ao usuário seu **nome**(str), **idade**(int) e **média**(float). Depois, calcula quantos anos faltam para ele completar 100 anos.
 Em seguida, verifica(if e else) se o usuário está acima ou abaixo da média (supondo que seja 7, como exemplificado) e mostra para o usuário.
 Por fim, exibe(print) um resumo com todas as informações digitadas e o resultado do cálculo.
----
 
 ### **Exercício 2 – Listas e Laços de Repetição**
 Esse código começa pedindo(input) que o usuário digite cinco valores, que são guardados em uma lista chamada **valores**.
@@ -100,7 +99,6 @@ Depois, o código organiza a lista em **ordem crescente** e **decrescente**, mos
 
 Por último, o programa pede que o usuário digite um número para **procurar** na lista.
 Se(if e else) o número estiver na lista, ele informa **em qual posição** da lista o número aparece; caso contrário, mostra uma mensagem dizendo que o número **não foi encontrado**.
----
 
 ### **Exercício 3 – Listas Compostas e Navegação**
 O programa serve para **registrar alunos e as suas notas**. Ele começa pedindo o nome de um aluno e permite que o usuário cadastre **quantas notas quiser**(while) para esse aluno. Cada aluno é armazenado em uma lista, junto com suas notas.
@@ -108,21 +106,20 @@ Depois de cadastrar um aluno, o programa pergunta se o usuário quer cadastrar o
 Em seguida, o programa **mostra uma lista de todos os alunos**, numerando cada um. Para que assim, cada aluno fica com um número para facilitar a busca.
 Assim, o usuário pode digitar o número de um aluno para **ver suas notas**. 
 **Esse processo de pesquisa continua até o usuário digitar **“fim”**, encerrando o programa.**
----
+
 
 ### **Exercício 4 – Funções e Dicionários**
 O programa serve para **olhar sua situação** de acordo suas notas.
 Primeiro, ele define uma **função**(def) que calcula a **média das notas** e determina a **situação** do aluno. Essa função compara a média com as condiçoẽs definidas: se a média for **7 ou maior**, o aluno está **aprovado**; se ficar entre **5 e 6,9**, está em **recuperação**; e se for **menor que 5**, está **reprovado**.
 Depois, o programa pede ao usuário que **digite o nome e as notas de três alunos**. Para cada aluno, ele guarda as informações e chama a função para fazer o cálculo da média e descobrir a situação. O resultado de cada aluno (nome, média e situação) é guardado em uma lista de dicionários, que ajuda na organização dos dados.
 No final, o programa mostra um **resumo com todos os alunos**, mostando o nome de cada um, sua média e se foi aprovado, ficou em recuperação ou foi reprovado.
----
+
 
 ### **Exercício 5 – Projeto Final: Gerenciador de Tarefas (To-Do List)**
 O programa é um **gerenciador de tarefas simples**, que permite ao usuário organizar suas tarefas. Ele mostra quatro opçoẽs: **adicionar tarefas, listar tarefas, marcar tarefas como concluídas e remover tarefas**.
 Cada tarefa é armazenada em uma lista como um **dicionário**, contendo o nome da tarefa e um indicador se ela foi concluída ou não. Quando o usuário escolhe adicionar uma tarefa, o programa pede o nome e cria esses dados com o status inicial como “não concluída”.
 Ao listar tarefas, o programa mostra todas as tarefas cadastradas, numeradas, e indica com símbolos se cada uma está concluída ou pendente. Para marcar uma tarefa como concluída ou tira-la, o usuário digita o número correspondente à tarefa, e o programa remove a tarefa da lista.
 O programa funciona dentro de um **loop**, exibindo um menu de opções até que o usuário escolha sair.
----
 
 ## 🧮 Critérios de Avaliação
 
