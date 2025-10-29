@@ -1,5 +1,5 @@
 print('-'*60)
-print('                       Cadastro                      ')
+print('\033[34m                       Cadastro                      \033[m')
 print('-'*60)
 nome = input('Digite o seu nome: ').capitalize()
 idade = int(input('Digite a sua idade: '))

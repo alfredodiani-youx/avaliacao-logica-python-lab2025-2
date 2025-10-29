@@ -26,13 +26,13 @@ for nomeAluno in range(3):
     alunos.append(aluno)
 
 
-print("\nDICIONÁRIO DE ALUNOS")
+print("\n\033[36mDICIONÁRIO DE ALUNOS\033[m")
 
 for aluno in alunos:
 
     print(f"Nome:{aluno['nome']}")
-    print('-'*30)
+    print('-' * 30)
     print(f"Média:{aluno['media']:.2f}")
-    print('-'*30)
+    print('-' * 30)
     print(f"Condição:{aluno['condicao']}")
-    print('-'*30)
+    print('-' * 30)

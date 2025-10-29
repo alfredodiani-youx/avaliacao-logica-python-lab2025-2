@@ -1,77 +1,55 @@
-tarefas = []
-
-def adicionar_tarefa():
-    """Adiciona uma nova tarefa à lista."""
-    titulo = input("Digite o título da tarefa: ")
-    tarefas.append({"titulo": titulo, "concluida": False})
-    print("Tarefa adicionada com sucesso!")
+def menu():
+    print('\n---\033[33mMenu de tarefas\033[m--')
+    print("1- Adicionar tarefas\n" +
+          "2- Lista tarefas\n" +
+          "3- Marcar tarefas como concluida\n" +
+          "4- Removar tarefas\n" +
+          "5- Sair\n" 
+          )
 
 def listar_tarefas():
-    """Exibe todas as tarefas, mostrando seu status."""
-    if not tarefas:
-        print("Nenhuma tarefa encontrada.")
-        return
-
-    print("\nLista de Tarefas")
-    for i, tarefa in enumerate(tarefas, 1):
-        status = "[x]" if tarefa["concluida"] else "[ ]"
-        print(f"{status} {i} - {tarefa['titulo']}")
-    print("-\n")
-
-def marcar_tarefa_concluida():
-    """Marca uma tarefa como concluída com base no seu número."""
-    listar_tarefas()
-    try:
-        num_tarefa = int(input("Digite o número da tarefa para marcar como concluída: "))
-        if 1 <= num_tarefa <= len(tarefas):
-            tarefas[num_tarefa - 1]["concluida"] = True
-            print("Tarefa marcada como concluída!")
-        else:
-            print("Número de tarefa inválido.")
-    except ValueError:
-        print("Entrada inválida. Digite um número inteiro.")
-
-def remover_tarefa():
-    """Remove uma tarefa da lista com base no seu número."""
-    listar_tarefas()
-    try:
-        num_tarefa = int(input("Digite o número da tarefa para remover: "))
-        if 1 <= num_tarefa <= len(tarefas):
-            tarefas.pop(num_tarefa - 1)
-            print("Tarefa removida com sucesso!")
-        else:
-            print("Número de tarefa inválido.")
-    except ValueError:
-        print("Entrada inválida. Digite um número inteiro.")
-
-def menu():
-    """Exibe o menu interativo e processa a escolha do usuário."""
-    while True:
-        print("Sistema de Tarefas")
-        print("1 – Adicionar tarefa")
-        print("2 – Listar tarefas")
-        print("3 – Marcar tarefa como concluída")
-        print("4 – Remover tarefa")
-        print("5 – Sair")
-        
-        try:
-            opcao = int(input("Escolha uma opção: "))
-            
-            if opcao == 1:
-                adicionar_tarefa()
-            elif opcao == 2:
-                listar_tarefas()
-            elif opcao == 3:
-                marcar_tarefa_concluida()
-            elif opcao == 4:
-                remover_tarefa()
-            elif opcao == 5:
-                print("Finalizando sistema...")
-                break
+    for indice, tarefa in enumerate(tarefas):
+            if tarefa['concluida'] == True:
+                tarefa_concluida = 'x'
             else:
-                print("Opção inválida. Tente novamente.")
-        except ValueError:
-            print("Opção inválida. Digite um número.")
+                tarefa_concluida = ' '
+            print(f'[{tarefa_concluida}] {indice} - {tarefa["titulo"]}') 
 
-if __name__== "__main__":
+
+
+tarefas = []
+
+while True:
     menu()
+    opcao = input('Escolha uma opção: ')
+
+    if opcao == '1':
+        titulo = input('Digite a tarefa: ').capitalize()
+        tarefas.append({'titulo': titulo, 'concluida': False})
+
+    
+    if opcao == '2':
+        listar_tarefas()
+
+    if opcao == '3':
+        listar_tarefas()
+        tarefa_marcar = int(input('Qual indice da tarefa você deseja marcar? '))
+        tarefas[tarefa_marcar]['concluida'] = True
+
+    if opcao == '4':
+        listar_tarefas()
+        if tarefas:
+            try:
+                lista_remover = int(input("Qual o índice da tarefa que deseja remover? "))
+                if 0 <= lista_remover < len(tarefas):
+                    del tarefas[lista_remover]
+                    print("Tarefa removida com sucesso!\n")
+                else:
+                    print("Índice inválido.\n")
+            except ValueError:
+                print("Por favor, insira um número válido para o índice.\n")
+                
+    elif opcao == '5':
+        print("\033[33mSaindo do programa. Até mais!\033[m")
+        break
+    
