@@ -3,9 +3,9 @@ numeros = []
 for c in range(0, 5):
     numero = int(input('Digite um número: '))
     numeros.append(numero)
-    maiorNumero = max(numeros)
+    maiorNumero = max(numeros) # procura o maior número da lista
     menorNumero = min(numeros)
-    media = sum(numeros) / len(numeros)
+    media = sum(numeros) / len(numeros) # sum = soma
 
 print('-' * 55)
 print(f'Lista de números: {numeros}')

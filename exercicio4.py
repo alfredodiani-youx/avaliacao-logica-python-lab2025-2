@@ -1,4 +1,4 @@
-def analisar_aluno(nome, notas):
+def analisar_aluno(nome, notas): # def definição de função
 
     media = sum(notas) / len(notas)
     if media >= 7:
@@ -17,7 +17,7 @@ for nomeAluno in range(3):
     nome = str(input("Qual o nome do aluno(a): "))
     
     notas = []
-    for notasAluno in range(3):
+    for notasAluno in range(3): # for = para ou por
 
         nota = float(input(f'Qual a {notasAluno+1}° nota do(a) {nome}: '))
         notas.append(nota)
