@@ -1,7 +1,7 @@
 def adicionar(tarefas):
     titulo = input('Título da tarefa: ')
     tarefas.append({'titulo': titulo, 'concluida': False})
-    print('Tarefa adicionada!')
+    print('Tarefa adicionada!\n')
 
 
 def listar(tarefas):
@@ -17,31 +17,23 @@ def listar(tarefas):
 def concluir(tarefas):
     listar(tarefas)
     if tarefas:
-        num = input('Número da tarefa concluída: ')
-        if num.isdigit():
-            num = int(num)
-            if 1 <= num <= len(tarefas):
-                tarefas[num - 1]['concluida'] = True
-                print('Tarefa marcada como concluída!')
-            else:
-                print('Número fora do intervalo!')
+        num = int(input('Número da tarefa concluída: '))
+        if 1 <= num <= len(tarefas):
+            tarefas[num - 1]['concluida'] = True
+            print('Tarefa marcada como concluída!\n')
         else:
-            print('Entrada inválida! Digite um número.')
+            print('Número fora do intervalo!\n')
 
 
 def remover(tarefas):
     listar(tarefas)
     if tarefas:
-        num = input('Número da tarefa para remover: ')
-        if num.isdigit():
-            num = int(num)
-            if 1 <= num <= len(tarefas):
-                removida = tarefas.pop(num - 1)
-                print(f'Tarefa "{removida["titulo"]}" removida!')
-            else:
-                print('Número fora do intervalo!')
+        num = int(input('Número da tarefa para remover: '))
+        if 1 <= num <= len(tarefas):
+            removida = tarefas.pop(num - 1)
+            print(f'Tarefa "{removida["titulo"]}" removida!\n')
         else:
-            print('Entrada inválida! Digite um número.')
+            print('Número fora do intervalo!\n')
 
 
 def menu():
@@ -64,10 +56,10 @@ def menu():
         elif opcao == '4':
             remover(tarefas)
         elif opcao == '5':
-            print('Encerrando... até logo!')
+            print('Fim!')
             break
         else:
-            print('Opção inválida.\n')
+            print('Opção inválida')
 
 
 menu()
