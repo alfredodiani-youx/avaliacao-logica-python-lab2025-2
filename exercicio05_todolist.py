@@ -1,87 +1,73 @@
-def menu():
-    print('-'*30)
-    print('   MENU DE TAREFAS   ')
-    print('-'*30)
-    print('1 – Adicionar tarefa')
-    print('2 – Listar tarefas')
-    print('3 – Marcar tarefa como concluída')
-    print('4 – Remover tarefa')
-    print('5 – Sair')
-    print('-'*30)
+def adicionar(tarefas):
+    titulo = input('Título da tarefa: ')
+    tarefas.append({'titulo': titulo, 'concluida': False})
+    print('Tarefa adicionada!')
 
-tarefas = [
-    {'titulo': 'Estudar Python', 'concluida': False},
-    {'titulo': 'Enviar avaliação', 'concluida': True}
-]
-def adicionar():
-    titulo = input('Digite o título da nova tarefa: ').strip()
-    if titulo:
-        tarefas.append({'titulo': titulo, 'concluida': False})
-        print(f'Tarefa \'{titulo}\' adicionada.')
+
+def listar(tarefas):
+    if not tarefas:
+        print('Nenhuma tarefa cadastrada.\n')
     else:
-        print('O título não pode ser vazio.')
+        for i, tarefa in enumerate(tarefas, 1):
+            status = '[x]' if tarefa['concluida'] else '[ ]'
+            print(f'{status} {i} - {tarefa["titulo"]}')
+        print()
 
-def listar():
-    if not tarefas:
-        print('Não há tarefas na lista.')
-        return
 
-    print('--- LISTA DE TAREFAS ---')
-    for i, tarefa in enumerate(tarefas):
-        indice = i + 1
-        status = '[x]' if tarefa['concluida'] else '[ ]'
-        print(f'{status} {indice} - {tarefa["titulo"]}')
-    print('-'*25)
-
-def marcar():
-    listar()
-    if not tarefas:
-        return
-    
-    num_tarefa = int(input('Digite o número da tarefa para marcar como concluída: '))
-    indice = num_tarefa - 1
-    
-    if 0 <= indice < len(tarefas):
-        tarefa = tarefas[indice]
-        if tarefa['concluida']:
-            print(f'A tarefa \'{tarefa["titulo"]}\' já estava concluída.')
+def concluir(tarefas):
+    listar(tarefas)
+    if tarefas:
+        num = input('Número da tarefa concluída: ')
+        if num.isdigit():
+            num = int(num)
+            if 1 <= num <= len(tarefas):
+                tarefas[num - 1]['concluida'] = True
+                print('Tarefa marcada como concluída!')
+            else:
+                print('Número fora do intervalo!')
         else:
-            tarefa['concluida'] = True
-            print(f'Tarefa \'{tarefa["titulo"]}\' concluída!')
-    else:
-        print('Número de tarefa inválido.')
+            print('Entrada inválida! Digite um número.')
 
-def remover():
-    listar()
-    if not tarefas:
-        return
 
-    num_tarefa = int(input('Digite o número da tarefa para remover: '))
-    indice = num_tarefa - 1
-    
-    if 0 <= indice < len(tarefas):
-        tarefa_removida = tarefas.pop(indice)
-        print(f'Tarefa \'{tarefa_removida["titulo"]}\' removida.')
-    else:
-        print('Número de tarefa inválido.')
+def remover(tarefas):
+    listar(tarefas)
+    if tarefas:
+        num = input('Número da tarefa para remover: ')
+        if num.isdigit():
+            num = int(num)
+            if 1 <= num <= len(tarefas):
+                removida = tarefas.pop(num - 1)
+                print(f'Tarefa "{removida["titulo"]}" removida!')
+            else:
+                print('Número fora do intervalo!')
+        else:
+            print('Entrada inválida! Digite um número.')
 
-def main():
+
+def menu():
+    tarefas = []
     while True:
-        menu()
-        escolha = input('Escolha uma opção: ')
+        print('1 - Adicionar tarefa')
+        print('2 - Listar tarefas')
+        print('3 - Marcar como concluída')
+        print('4 - Remover tarefa')
+        print('5 - Sair')
+        opcao = input('Escolha: ')
+        print()
 
-        if escolha == '1':
-            adicionar()
-        elif escolha == '2':
-            listar()
-        elif escolha == '3':
-            marcar()
-        elif escolha == '4':
-            remover()
-        elif escolha == '5':
-            print('Saindo do sistema')
+        if opcao == '1':
+            adicionar(tarefas)
+        elif opcao == '2':
+            listar(tarefas)
+        elif opcao == '3':
+            concluir(tarefas)
+        elif opcao == '4':
+            remover(tarefas)
+        elif opcao == '5':
+            print('Encerrando... até logo!')
             break
         else:
-            print('Opção inválida. Escolha uma das opçoẽs.')
+            print('Opção inválida.\n')
 
-main()
+
+menu()
