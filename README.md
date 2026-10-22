@@ -1,18 +1,18 @@
-# 🧠 Avaliação Final – Lógica de Programação em Python
+# Avaliação Final – Lógica de Programação em Python
 
 Bem-vindo(a) à **Avaliação Final** do curso básico de **Lógica de Programação em Python**!  
 O objetivo deste trabalho é aplicar os principais conceitos aprendidos ao longo do curso, organizando tudo em um repositório no GitHub.
 
 ---
 
-## 🧾 Informações Gerais
+## Informações Gerais
 
 **Aluno:** _[Seu nome aqui]_    
 **Data de entrega:** _[Definir data]_
 
 ---
 
-## 🧾 Instruções para realização da avaliação
+## Instruções para realização da avaliação
 
 Clone esse repositório no seu computador
 
@@ -52,7 +52,7 @@ Caso queira adicionar alguma funcionalidade extra sinta-se à vontade.
 
 ---
 
-## 🎯 Objetivo da Avaliação
+## Objetivo da Avaliação
 
 Avaliar a capacidade de desenvolver soluções em Python utilizando:
 
@@ -66,7 +66,7 @@ Além disso, será avaliada a **organização e uso do GitHub** — cada exercí
 
 ---
 
-## ⚙️ Estrutura do Repositório
+## Estrutura do Repositório
 
 Seu repositório deve seguir esta estrutura:
 
@@ -81,11 +81,11 @@ avaliacao-logica-python-seu-nome/
 └── README.md
 ```
 
-> 💡 Cada arquivo corresponde a um exercício e deve ser commitado separadamente no GitHub.
+>  Cada arquivo corresponde a um exercício e deve ser commitado separadamente no GitHub.
 
 ---
 
-## 🧩 Exercícios
+##  Exercícios
 
 ### **Exercício 1 – Entrada, Processamento e Saída**
 Crie um programa que:
@@ -159,7 +159,7 @@ O programa só termina quando o usuário escolher “Sair”.
 
 ---
 
-## 🧮 Critérios de Avaliação
+##  Critérios de Avaliação
 
 | Critério | Peso |
 |----------|------|
@@ -171,7 +171,7 @@ O programa só termina quando o usuário escolher “Sair”.
 
 ---
 
-## 💡 Boas Práticas Recomendadas
+## Boas Práticas Recomendadas
 
 - Use **nomes claros** para variáveis e funções.  
 - Faça **comentários curtos** explicando trechos importantes.  
@@ -185,7 +185,7 @@ O programa só termina quando o usuário escolher “Sair”.
 
 ---
 
-## ✅ Checklist Antes da Entrega
+## Checklist Antes da Entrega
 
 - [ ] Todos os exercícios estão funcionando corretamente  
 - [ ] Cada exercício tem seu próprio commit   
@@ -195,7 +195,7 @@ O programa só termina quando o usuário escolher “Sair”.
 
 ---
 
-## 🚀 Entrega
+## Entrega
 
 Faça o commit de todos os exercícios até a data limite informada.
 
